@@ -155,6 +155,9 @@ const HomeVisitForm = (props) => {
         else if (e.areaId === undefined || e.areaId === "-- Select Locality / Area --") {
             message.error('Locality/ Area is Required')
         }
+        else if (area.length !== 0) {
+            message.error('Locality/ Area is Required')
+        }
         else if (e.first_name === "") {
             message.error('Your Name is Required')
         }
@@ -338,7 +341,7 @@ const HomeVisitForm = (props) => {
                                     {/* {errors.cityId && <span>This field is required</span>} */}
                                 </Col>
                                 <Col xs={12} sm={12} md={6} lg={6} className="pb-4">
-                                    <p className="mb-0 text-dark">Locality / Area <strong className="text-red">*</strong></p>
+                                    <p className="mb-0 text-dark">Locality / Area  <strong className="text-red">{area?.length !== 0 ? "*" : ""}</strong></p>
                                     <Form.Select {...register("areaId")} disabled={cityId !== null ? false : true} loading={cityId !== null ? false : true} placeholder={loadArea ? "Please Wait....." : "Select Locality / Area"}>
                                         <option>-- Select Locality / Area --</option>
                                         {area && area?.map((common, a) => (

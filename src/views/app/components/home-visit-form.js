@@ -21,7 +21,7 @@ const HomeVisitForm = (props) => {
     const { defaultCity } = props;
 
     let history = useHistory();
-    const { register, handleSubmit, reset } = useForm();
+    const { register, handleSubmit, reset,setValue } = useForm();
 
 
     //  Package Listing
@@ -146,18 +146,23 @@ const HomeVisitForm = (props) => {
 
     const { mutate: addVisit, isLoading: btnloading } = useHomeVisit();
     const submitHandler = (e) => {
+        console.log('area',e.areaId,area)
+       
         if (e.date === "") {
             message.error('Visit Date is Required')
         }
         else if (e.cityId === "-- Select City --") {
             message.error('City is Required')
         }
-        else if (e.areaId === undefined || e.areaId === "-- Select Locality / Area --") {
+        else if(area?.length !== 0 && (e.areaId === undefined || e.areaId === "-- Select Locality / Area --" || area === null || e.areaId === null)){
             message.error('Locality/ Area is Required')
         }
-        else if (area.length !== 0) {
-            message.error('Locality/ Area is Required')
-        }
+        // else if (e.areaId === undefined || e.areaId === "-- Select Locality / Area --") {
+        //     message.error('Locality/ Area is Required')
+        // }
+        // else if (area.length !== 0 || area !== null || area !== undefined) {
+        //     message.error('Locality/ Area is Required')
+        // }
         else if (e.first_name === "") {
             message.error('Your Name is Required')
         }
@@ -205,9 +210,8 @@ const HomeVisitForm = (props) => {
 
     const areaIdChange = (e) => {
         setCityId(e.target.value)
+        setValue('areaId',null)
     }
-
-
 
     //  Area  Listing
 

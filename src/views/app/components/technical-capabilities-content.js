@@ -136,7 +136,7 @@ const TechnicalCapabilitiesContent = () => {
               </p>
               <h5>
                 <strong className="text-purple">
-                  A.G Diagnostics is accredited by NABL as per ISO 15189:2012.
+                  A.G Diagnostics is accredited by NABL as per ISO 15189:2022.
                 </strong>
               </h5>
             </Col>

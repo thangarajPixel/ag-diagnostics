@@ -120,7 +120,7 @@ const FindALabContent = () => {
                             ))}
                         </Row>                        
                     )}
-                    <Row>
+                    {/* <Row>
                         <Col>
                         <hr/>
                             <div className="main-lab-address pt-4 pb-0">
@@ -145,7 +145,7 @@ const FindALabContent = () => {
                                         </a>
                             </div>
                         </Col>
-                    </Row>
+                    </Row> */}
                     <Row>
                         <Col>
                         <hr/>

@@ -30,7 +30,7 @@ const AboutContent = () => {
                 services.
               </p>
               <p className="text-dark">
-                At present, Dr Awanti and Dr Vinanti run this world-class,
+                At present, Dr Awanti Golwilkar and Dr Vinanti Golwilkar run this world-class,
                 highest quality standard diagnostic set-up of A.G Diagnostics
                 Pvt. Ltd., backed by a team of expert Pathologists,
                 Microbiologists, skilled Phlebotomists and Technicians to

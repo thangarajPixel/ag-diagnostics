@@ -21,7 +21,7 @@ const FounderContent = () => {
                 In the year 1978,{" "}
                 <strong className="text-orange">Dr Ajit Golwilkar</strong>{" "}
                 dreamt of bringing world-class pathology services to the city
-                of Pune and brought his pathology laboratory on Karve Road,
+                of Pune and brought his first pathology laboratory set up on Karve Road,
                 called Golwilkar Laboratories to life. His name has been
                 considered synonymous with quality laboratory services in Pune
                 & the country for over four decades.

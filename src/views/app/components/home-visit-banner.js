@@ -11,7 +11,7 @@ const HomeVisitBanner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col>
-                        <h3 className="text-start text-white">Home <b>Visit</b></h3>
+                        <h1 className="text-start text-white banner_heading">Book Home Visit for Lab and Blood Tests</h1>
                     </Col>
                 </Row>
             </Container>

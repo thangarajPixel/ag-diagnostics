@@ -130,7 +130,7 @@ h2 {
   margin-bottom: 5px;
 }
 
-h3 {
+h3,.banner_heading {
   font-family: "helveticaregular";
   font-style: normal;
   font-weight: 700;
@@ -1699,7 +1699,8 @@ section.home-slider-bg .carousel .carousel-indicators button.active {
   background-size: cover;
 }
 
-.inner-banner h3 {
+.inner-banner h3,
+.banner_heading {
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -2865,7 +2866,7 @@ section.teams {
     display: none;
   }
 
-  h3 {
+  h3,.banner_heading {
     font-size: 30px;
     line-height: 46px;
   }

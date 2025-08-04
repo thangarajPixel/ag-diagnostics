@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Container from 'react-bootstrap/Container';
+import { Accordion } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
@@ -11,6 +12,50 @@ import { useFindLab } from "hooks/findLab";
 import { useCity } from "hooks/home";
 import Loader from "./loader";
 import { TextLeft } from "react-bootstrap-icons";
+
+
+const FindLabFaqSchema = () => {
+  const faqStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Can I get lab test results online?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, A.G Diagnostics provides secure online access to your lab test reports. Once your test is completed, you'll receive a link via SMS, email or  download your report directly from our app."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer full body checkups or health packages?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we provide a variety of comprehensive health checkup packages such as executive health checkup, women’s wellness package, senior citizen health package which include tests like ECG,Xray,TMT / 2D Echo in addition to blood tests.For appointment call us at 02067636763"
+    }
+  },{
+    "@type": "Question",
+    "name": "What types of lab tests can I book from home?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Majority of blood tests from blood sugar and thyroid to full body checkups as well as COVID tests—we offer a wide range of lab test home collection options that cover your everyday and preventive health needs."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I book a lab test for my parents if I’m in a different city?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! You can book a home sample collection online or over the phone from anywhere in India—even abroad—and we’ll take care of your loved ones in Pune with real-time updates."
+    }
+  }]
+};
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+    />
+  );
+};
 
 
 const FindALabContent = () => {
@@ -158,6 +203,46 @@ const FindALabContent = () => {
                     </Row>
                 </Container>
             </section>
+
+
+            {/* faq */}
+            <section>
+              <Container>
+                  <h3 className="text-center mb-5">FAQ's</h3>
+                <Accordion defaultActiveKey="0">
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>Can I get lab test results online?</Accordion.Header>
+                    <Accordion.Body>
+                      Yes, A.G Diagnostics provides secure online access to your lab test reports. Once your test is completed, you'll receive a link via SMS, email or  download your report directly from our app.
+                    </Accordion.Body>
+                  </Accordion.Item>
+            
+                  <Accordion.Item eventKey="1">
+                    <Accordion.Header>Do you offer full body checkups or health packages?</Accordion.Header>
+                    <Accordion.Body>
+                     Yes, we provide a variety of comprehensive health checkup packages such as executive health checkup, women’s wellness package, senior citizen health package which include tests like ECG,Xray,TMT / 2D Echo in addition to blood tests.For appointment call us at <a href="tel:02067636763">02067636763</a>
+                    </Accordion.Body>
+                  </Accordion.Item>
+            
+                  <Accordion.Item eventKey="2">
+                    <Accordion.Header>What types of lab tests can I book from home?</Accordion.Header>
+                    <Accordion.Body>
+Majority of blood tests from blood sugar and thyroid to full body checkups as well as COVID tests—we offer a wide range of lab test home collection options that cover your everyday and preventive health needs.                    </Accordion.Body>
+                  </Accordion.Item>
+            
+                   <Accordion.Item eventKey="3">
+                    <Accordion.Header>Can I book a lab test for my parents if I’m in a different city?</Accordion.Header>
+                    <Accordion.Body>
+Yes! You can book a home sample collection online or over the phone from anywhere in India—even abroad—and we’ll take care of your loved ones in Pune with real-time updates.                    </Accordion.Body>
+                  </Accordion.Item>
+            
+            
+                </Accordion>
+              </Container>
+            
+              
+            </section>
+            <FindLabFaqSchema/>
         </>
     );
 }

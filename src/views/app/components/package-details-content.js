@@ -31,7 +31,6 @@ const PackageDetails = ({ packageData }) => {
   const { mutate: enquiry, isLoading: loading } = useEnquiry();
 
   const [isEnabled, setIsEnabled] = useState(false);
-  console.log(packageData);
   const toggleSwitch = () => {
     setIsEnabled((previousState) => !previousState);
     reset();
@@ -73,7 +72,6 @@ const PackageDetails = ({ packageData }) => {
     if (metaTag) {
       metaTag.setAttribute("content", packageData.meta_description ?? packageData.packageName);
     }
-    console.log(packageData)
   }, [packageData])
 
   return (

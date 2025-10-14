@@ -98,7 +98,7 @@ const PackageDetails = () => {
       setCityData(city?.city);
     }
   }, [city]);
-  console.log(packageData, "packageData");
+
   useEffect(() => {
     axios
       .get(
@@ -106,9 +106,10 @@ const PackageDetails = () => {
       )
       .then((response) => {
         setPackageData(response.data?.package_detail);
-        console.log(response.data?.package_detail)
+        document.head.insertAdjacentHTML('beforeend', response.data?.package_detail?.meta_info);
       });
   }, [packageName]);
+
   return (
     <div>
       <Helmet>

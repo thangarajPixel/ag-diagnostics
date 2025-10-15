@@ -42,6 +42,20 @@ const AboutUs = () => {
                 <title>About Our Pathology and Diagnostic Centre | A G Diagnostics</title>
                 <meta name="description" content="A G Diagnostics is the most reputed lab in Pune and Ahmednagar with over 50 collection centres staffed with expert pathologists, phlebotomists & technicians." />
                 <link rel="canonical" href="https://www.agdiagnostics.com/about-us/ag-diagnostics" />
+
+                <meta property="og:url" content="https://www.agdiagnostics.com/about-us/ag-diagnostics"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="About Our Pathology and Diagnostic Centre | A G Diagnostics"/>
+<meta property="og:description" content="A G Diagnostics is the most reputed lab in Pune and Ahmednagar with over 50 collection centres staffed with expert pathologists, phlebotomists & technicians."/>
+<meta property="og:image" content="https://www.agdiagnostics.com/static/media/about-2.8892246d2f2160c45813.jpg"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="About Our Pathology and Diagnostic Centre | A G Diagnostics"/>
+<meta name="twitter:description" content="A G Diagnostics is the most reputed lab in Pune and Ahmednagar with over 50 collection centres staffed with expert pathologists, phlebotomists & technicians."/>
+<meta name="twitter:image" content="https://www.agdiagnostics.com/static/media/about-2.8892246d2f2160c45813.jpg"/>
+
+
+
             </MetaTags>
             <Menubar
                 defaultCity={defaultCity}

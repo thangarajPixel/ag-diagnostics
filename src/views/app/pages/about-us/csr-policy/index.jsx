@@ -40,6 +40,21 @@ const CsrPolicy = () => {
                 <title>Corporate Social Responsibility (CSR) - A G Diagnostics</title>
                 <meta name="description" content="A G Diagnostics Private Limited is committed to conducting sustainable and ethical business practices through its Corporate Social Responsibility (CSR) activities." />
                 <link rel="canonical" href="https://www.agdiagnostics.com/about-us/csr-policy" />
+
+
+<meta property="og:url" content="https://www.agdiagnostics.com/about-us/csr-policy"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Corporate Social Responsibility (CSR) - A G Diagnostics"/>
+<meta property="og:description" content="A G Diagnostics Private Limited is committed to conducting sustainable and ethical business practices through its Corporate Social Responsibility (CSR) activities."/>
+<meta property="og:image" content="https://www.agdiagnostics.com/static/media/logo.e0343e7e9281d6cf4eb9.png"/>
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Corporate Social Responsibility (CSR) - A G Diagnostics"/>
+<meta name="twitter:description" content="A G Diagnostics Private Limited is committed to conducting sustainable and ethical business practices through its Corporate Social Responsibility (CSR) activities."/>
+<meta name="twitter:image" content="https://www.agdiagnostics.com/static/media/logo.e0343e7e9281d6cf4eb9.png"/>
+
+
             </MetaTags>
             <Menubar
                 defaultCity={defaultCity}

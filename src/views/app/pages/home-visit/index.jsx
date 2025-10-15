@@ -48,6 +48,17 @@ const HomeVisit = () => {
           name="description"
           content="A G Diagnostics offers blood test home collection in pune for your comfort and gets reports within 24 hours trusted by Doctors and Hospitals. Book a Blood test online."/>
           <link rel="canonical" href="https://www.agdiagnostics.com/home-visit" />
+          <meta property="og:url" content="https://www.agdiagnostics.com/home-visit"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Home Visit For Blood Test in Pune - A G Diagnostics"/>
+<meta property="og:description" content="A G Diagnostics offers blood test home collection in Pune for your comfort and gets reports within 24 hours trusted by doctors and hospitals. Book a blood test online."/>
+<meta property="og:image" content="https://www.agdiagnostics.com/static/media/logo.e0343e7e9281d6cf4eb9.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Home Visit For Blood Test in Pune - A G Diagnostics"/>
+<meta name="twitter:description" content="A G Diagnostics offers blood test home collection in Pune for your comfort and gets reports within 24 hours trusted by doctors and hospitals. Book a blood test online."/>
+<meta name="twitter:image" content="https://www.agdiagnostics.com/static/media/logo.e0343e7e9281d6cf4eb9.png"/>
+
       </MetaTags>
       <Menubar
         defaultCity={defaultCity}

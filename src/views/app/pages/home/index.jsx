@@ -106,6 +106,17 @@ export default function Home() {
           content="A G Diagnostics: Providing quality pathology laboratory services for over 40 years in Pune and Ahmednagar. Book your test in our nearest Diagnostic Centre now!"
         />
         <link rel="canonical" href="https://www.agdiagnostics.com/" />
+        <meta property="og:url" content="https://www.agdiagnostics.com/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Best Diagnostic Centre in Pune | Dr Ajit Golwilkar Lab | A G Diagnostics"/>
+<meta property="og:description" content="A G Diagnostics: Providing quality pathology laboratory services for over 40 years in Pune and Ahmednagar. Book your test in our nearest Diagnostic Centre now!"/>
+<meta property="og:image" content="https://www.agdiagnostics.com/static/media/logo.e0343e7e9281d6cf4eb9.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Best Diagnostic Centre in Pune | Dr Ajit Golwilkar Lab | A G Diagnostics"/>
+<meta name="twitter:description" content="A G Diagnostics: Providing quality pathology laboratory services for over 40 years in Pune and Ahmednagar. Book your test in our nearest Diagnostic Centre now!"/>
+<meta name="twitter:image" content="https://www.agdiagnostics.com/static/media/logo.e0343e7e9281d6cf4eb9.png"/>
+
       </MetaTags>
       <Menubar
         defaultCity={defaultCity}

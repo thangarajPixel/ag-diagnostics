@@ -40,6 +40,21 @@ const OurTeam = () => {
                 <title>Meet Our Dr Ajit Golwilkar Lab Team - A G Diagnostics</title>
                 <meta name="description" content="A G Diagnostics: 20+ years of tech team experience for efficient and ethical services. Stay ahead with our innovative practices and cutting-edge technology." />
                 <link rel="canonical" href="https://www.agdiagnostics.com/about-us/our-team" />
+
+
+<meta property="og:url" content="https://www.agdiagnostics.com/about-us/our-team"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Meet Our Dr Ajit Golwilkar Lab Team - A G Diagnostics"/>
+<meta property="og:description" content="A G Diagnostics: 20+ years of tech team experience for efficient and ethical services. Stay ahead with our innovative practices and cutting-edge technology."/>
+<meta property="og:image" content="https://www.agdiagnostics.com/static/media/about-2.8892246d2f2160c45813.jpg"/>
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Meet Our Dr Ajit Golwilkar Lab Team - A G Diagnostics"/>
+<meta name="twitter:description" content="A G Diagnostics: 20+ years of tech team experience for efficient and ethical services. Stay ahead with our innovative practices and cutting-edge technology."/>
+<meta name="twitter:image" content="https://www.agdiagnostics.com/static/media/about-2.8892246d2f2160c45813.jpg"/>
+
+
             </MetaTags>
             <Menubar
                 defaultCity={defaultCity}

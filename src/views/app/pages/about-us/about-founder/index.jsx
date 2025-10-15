@@ -41,6 +41,21 @@ const AboutFounder = () => {
                 <title>About A.G Diagnostics Centre Founder Dr Ajit Golwilkar</title>
                 <meta name="description" content="A G Diagnostics, formerly known as Golwilkar Laboratories, provides world-class pathology services in Pune. Founded in 1978 by Dr Ajit Golwilkar" />
                 <link rel="canonical" href="https://www.agdiagnostics.com/about-us/about-founder" />
+
+
+<meta property="og:url" content="https://www.agdiagnostics.com/about-us/about-founder"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="About A.G Diagnostics Centre Founder Dr Ajit Golwilkar"/>
+<meta property="og:description" content="A G Diagnostics, formerly known as Golwilkar Laboratories, provides world-class pathology services in Pune. Founded in 1978 by Dr Ajit Golwilkar"/>
+<meta property="og:image" content="https://www.agdiagnostics.com/static/media/about-1.01394e92365e523b6e30.png"/>
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="About A.G Diagnostics Centre Founder Dr Ajit Golwilkar"/>
+<meta name="twitter:description" content="A G Diagnostics, formerly known as Golwilkar Laboratories, provides world-class pathology services in Pune. Founded in 1978 by Dr Ajit Golwilkar"/>
+<meta name="twitter:image" content="https://www.agdiagnostics.com/static/media/about-1.01394e92365e523b6e30.png"/>
+
+
             </MetaTags>
             <Menubar
                 defaultCity={defaultCity}

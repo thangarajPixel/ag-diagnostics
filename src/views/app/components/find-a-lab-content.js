@@ -6,8 +6,8 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import { GrLocation } from 'react-icons/gr';
 import { AiOutlineFieldTime } from 'react-icons/ai';
-import { FiPhoneCall } from 'react-icons/fi';
-import { TbMap2 } from 'react-icons/tb';
+import { FiClock, FiPhoneCall } from 'react-icons/fi';
+import { TbMap2, TbPhoneCall } from 'react-icons/tb';
 import { useFindLab } from "hooks/findLab";
 import { useCity } from "hooks/home";
 import Loader from "./loader";
@@ -128,7 +128,27 @@ const FindALabContent = () => {
                     </Row>
                 </Container>
             </section>
-            <section className="bg-light-orange pt-5">
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <section className="bg-light-orange pt-5">
                 <Container>
                     <Row>
                         <Col>
@@ -165,32 +185,56 @@ const FindALabContent = () => {
                             ))}
                         </Row>                        
                     )}
-                    {/* <Row>
+                    <Row>
                         <Col>
                         <hr/>
                             <div className="main-lab-address pt-4 pb-0">
-                                <h3 className="mb-0 text-orange text-left">Associate Collection Centre</h3>
+                                <h3 className="mb-0 text-orange text-center">Associate Centres</h3>
                             </div>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="justify-content-center">
                         <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="package-slide">
                                 <h5 className="text-purple">
-                                Punawale<span>Kate Wasti, Pune</span>
+                                Dr Raviraj Gangaprasad Thanvi
                                 </h5>
                                 <div className="location">
-                                <GrLocation />Doctor Hub Polyclinic, <br/>Shop No.1, Shukhada Apartment, <br/>Jambe Road, Kate Wasti, <br/>Pune - 411 033
+                                <GrLocation />Shop No.9, Ganga Altus,,<br/>Building Opp. to Altus,<br/>Near Manipal Hosp., Survey No. 22/2,<br/>Kharadi, Pune-411014
                                 </div>
                                 <div className="phone">
-                                    <FiPhoneCall /> 70582224525
+                                    <FiClock /> Mon - Sat : 07.30 AM to 7.30 PM Sunday : Closed
                                 </div>
-                                <a className="orange-btn" href={`https://maps.app.goo.gl/bC99RK4AC72QBQEb8`} target="_blank" rel="noreferrer">
-                                            <TbMap2 /> Get Direction
-                                        </a>
+                                <div className="phone">
+                                    <FiPhoneCall /> 9766458819
+                                </div>
+                                {/* <a className="orange-btn" href={`tel:9766458819`} target="_blank" rel="noreferrer">
+                                            <TbPhoneCall /> Contact Now
+                                        </a> */}
                             </div>
                         </Col>
-                    </Row> */}
+
+                         <Col xs={12} sm={12} md={6} lg={6} xl={4}>
+                            <div className="package-slide">
+                                <h5 className="text-purple">
+                                Bramhandnayak Pathology
+                                </h5>
+                                <div className="location">
+                                <GrLocation />Elora Shoppe, Shop No. 27,<br/>Plot No. 2&3, Indrayaninagar,<br/>Bhosari,<br/>Pune-411039
+                                </div>
+                                <div className="phone">
+                                    <FiClock /> Mon - Sat : 07.30 AM to 7.30 PM Sunday : Closed
+                                </div>
+                                <div className="phone">
+                                    <FiPhoneCall /> 8390809696
+                                </div>
+                                {/* <a className="orange-btn" href={`tel:8390809696`} target="_blank" rel="noreferrer">
+                                            <TbPhoneCall /> Contact Now
+                                        </a> */}
+                            </div>
+                        </Col>
+
+                    </Row>
                     <Row>
                         <Col>
                         <hr/>
@@ -203,6 +247,28 @@ const FindALabContent = () => {
                     </Row>
                 </Container>
             </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
 
 
             {/* faq */}

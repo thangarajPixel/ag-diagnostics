@@ -194,25 +194,7 @@ const FindALabContent = () => {
                         </Col>
                     </Row>
                     <Row className="justify-content-center">
-                        <Col xs={12} sm={12} md={6} lg={6} xl={4}>
-                            <div className="package-slide">
-                                <h5 className="text-purple">
-                                Dr Raviraj Gangaprasad Thanvi
-                                </h5>
-                                <div className="location">
-                                <GrLocation />Shop No.9, Ganga Altus,,<br/>Building Opp. to Altus,<br/>Near Manipal Hosp., Survey No. 22/2,<br/>Kharadi, Pune-411014
-                                </div>
-                                <div className="phone">
-                                    <FiClock /> Mon - Sat : 07.30 AM to 7.30 PM Sunday : Closed
-                                </div>
-                                <div className="phone">
-                                    <FiPhoneCall /> 9766458819
-                                </div>
-                                {/* <a className="orange-btn" href={`tel:9766458819`} target="_blank" rel="noreferrer">
-                                            <TbPhoneCall /> Contact Now
-                                        </a> */}
-                            </div>
-                        </Col>
+                   
 
                          <Col xs={12} sm={12} md={6} lg={6} xl={4}>
                             <div className="package-slide">
